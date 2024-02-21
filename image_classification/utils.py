@@ -19,7 +19,7 @@ import torch.distributed as dist
 # from torch.utils.tensorboard import SummaryWrite
 from tensorboardX import SummaryWriter
 import math
-from torch._six import inf
+from torch import inf
 
 
 def adjust_learning_rate(optimizer, epoch, args):
